@@ -1,0 +1,27 @@
+Good-day Readers of the CS50 final project.
+The only libraries that I imported was:
+Random library.
+Sys library.
+And the sleep function from the time library.
+
+This program creates a password according to my research. A password that is secure and safe.
+Per the specifications my program implements numbers, letters, lower and uppercase, special
+characters and is twelve characters long.
+
+The first 'set' of functions we take a look at are the conversion, which takes the alphabet
+letters and converts some of them into numbers. I made a function for each of the following:
+'a', 'e', 'o', and 'i'.
+
+The second big function adds the special characters to the end of the string. The character is
+chosen at random, therefore decreasing the chance of getting the same output everytime.
+The list of special characters include '!', '@', '#', '$', '%', '^', '&', '*', '_', '+',
+'~' and '`'. I am not exactly sure how to write a test case or a unittest for this but I am
+trying my best to figure that out. I acquired some assistance from the interwebs to figure out
+how to do this test. Thanks for the assist.
+
+The third and last big function changes the fonts from upper to lowercase and vice versa. The
+first few letters are forced to lowercase while the last few are forced to uppercase. This then
+ensures the final bit of the specifications that I set out to achieve.
+
+The link to the video explanation is:
+https://youtu.be/2UkXwqNRoaw
